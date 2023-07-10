@@ -1,17 +1,7 @@
 #!/bin/bash
-echo "total 64
-drwxr-xr-x 2 root root   263 Jul 10 14:32 .
-drwxr-xr-x 6 root root   121 Jul 10 07:04 ..
--rwxr--r-- 1 root root    32 Jul 10 07:15 0-hello_world
--rwxr--r-- 1 root root    28 Jul 10 07:40 1-confused_smiley
--rwxr-xr-x 1 root root    28 Jul 10 07:44 2-hellofile
--rwxr-xr-x 1 root root    39 Jul 10 08:01 3-twofiles
--rwxr-xr-x 1 root root    35 Jul 10 08:06 4-lastlines
--rwxr-xr-x 1 root root    36 Jul 10 08:08 5-firstlines
--rwxr-xr-x 1 root root    40 Jul 10 08:14 6-third_line
--rwxr--r-- 1 root root    98 Jul 10 14:21 7-file
--rw-r--r-- 1 root root 12288 Jul 10 13:41 .7-file.swp
--rwxr--r-- 1 root root    13 Jul 10 14:32 8-cwd_state
--rw-r--r-- 1 root root 12288 Jul 10 14:33 .8-cwd_state.swp
--rw-r--r-- 1 root root     0 Jul 10 14:32 ls_cwd_content
--rw-r--r-- 1 root root    22 Jul 10 14:24 README.md" > ls_cwd_content
+echo "total 20
+drwxrwxr-x  2 julien julien 4096 Sep 20 18:18 .
+drwxrwxrwt 13 root   root   4096 Sep 20 18:18 ..
+-rwxrw-r--  1 julien julien   36 Sep 20 18:18 8-cwd_state
+-rw-rw-r--  1 betty  julien   23 Sep 20 14:25 hello
+-rw-rw-r--  1 julien julien  926 Sep 20 17:52 iacta" > ls_cwd_content
